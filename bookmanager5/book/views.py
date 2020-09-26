@@ -1,5 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views import View
+
 from book.models import BookInfo,PeopleInfo
 
 # Create your views here.
@@ -66,3 +68,64 @@ def response(request):
     # res= HttpResponse('response')
     # res['name']='itcasst'
     return res
+
+
+
+
+# def cookie(request):
+#     response = HttpResponse('ok')
+#     response.set_cookie('itcast1', 'python1')  # 临时cookie
+#     response.set_cookie('itcast2', 'python2', max_age=3600)  # 有效期一小时
+#     return response
+#
+#
+# def get_cookie(request):
+#     data=request.COOKIES.get('itcast2')
+#
+#     return HttpResponse(data)
+#
+# def session(request):
+#     itcast2='python2'
+#
+#     request.session['itcast2']=itcast2
+#     return HttpResponse('ok')
+#
+# def get_session(request):
+#     data=request.session['itcast2']
+#
+#     return HttpResponse(data)
+
+def set_cookie(request):
+    # username=request.GET.get('username')
+    # response = HttpResponse('ok')
+    # response.set_cookie('name',username)
+
+
+    response=HttpResponse('ok')
+    response.set_cookie('username','localhose',max_age=360)
+    return response
+
+def get_cookie(request):
+    data=request.COOKIES.get('username')
+    return HttpResponse(data)
+def set_session(request):
+    username='host'
+    request.session['name']=username
+    return HttpResponse('123')
+
+def get_session(request):
+    datr=request.session['name']
+    return HttpResponse(datr)
+
+# from django.views import View
+# class LogView(View):
+#     def get(self,request):
+#         return HttpResponse('get get get')
+#     def post(self,request):
+#         return HttpResponse('post post')
+
+class LogView(View):
+    def get(self,request):
+        return HttpResponse('get get get')
+    def post(self,request):
+        return HttpResponse('POsT PORT post')
