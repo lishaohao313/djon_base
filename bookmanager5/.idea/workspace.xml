@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../bookmanager3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookmanager3/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager3/book/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bookmanager3/person/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager3/person/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmanager6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -234,12 +231,12 @@
       <updated>1601028103729</updated>
       <workItem from="1601028105377" duration="9153000" />
       <workItem from="1601080288200" duration="174000" />
-      <workItem from="1601080672547" duration="15079000" />
+      <workItem from="1601080672547" duration="15753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24406000" />
+    <option name="totallyTimeSpent" value="25080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1651" height="863" extended-state="6" />
